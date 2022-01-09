@@ -1,8 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 * {
   margin: 0 auto;
+  font-family: 'Varela Round', sans-serif;
 }
 
 body {
   background: #2F2F2F;
+}
+
+body .mainContainer {
+  padding: 40px;
+}
+
+body .mainContainer .header {
+  margin-bottom: 40px;
+}
+
+body .mainContainer .header .headerText {
+  font-size: 0.5em;
+  color: #fff;
+  float: right;
+}
+
+body .mainContainer .header .headerText span {
+  color: #ACDEA0;
+}
+
+body .mainContainer .upper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .mainContainer .upper .column1 {
+  background-color: #3A3A3A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 50%;
+}
+
+body .mainContainer .upper .column1 .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2vh 1vw;
+}
+
+body .mainContainer .upper .column1 .left .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #2F2F2F;
+  border-radius: 10px;
+}
+
+body .mainContainer .upper .column1 .left .profile .profilePic .picture {
+  border-radius: 10px;
+}
+
+body .mainContainer .upper .column1 .left .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .mainContainer .upper .column1 .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2vh 1vw;
+}
+
+body .mainContainer .upper .column2 {
+  background-color: #3A3A3A;
 }
 /*# sourceMappingURL=main.css.map */
