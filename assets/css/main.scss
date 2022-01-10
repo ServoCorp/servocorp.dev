@@ -113,14 +113,15 @@ body {
                     display: flex;
                     flex-direction: column;
                     margin: 2vh 1vw;
+                    width: 42vw;
                     .header {
                         color: $color_accent_white;
                         text-align: center;
                         h1 {
-                            font-size: 3vh;
+                            font-size: 2vw;
                         }
                         h2 {
-                            font-size: 2vh;
+                            font-size: 1vw;
                         }
                     }
                     .dailyQuote {
@@ -130,9 +131,10 @@ body {
                         height: 26vh;
                         .quote {
                             color: $color_accent_white;
+                            font-size: 1vw;
                         }
                         .author {
-                            font-size: 1.2em;
+                            font-size: 1vw;
                             color: $color_accent_green;
                             float: right;
                         }
