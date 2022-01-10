@@ -13,7 +13,7 @@ body .mainContainer {
 }
 
 body .mainContainer .header {
-  margin-bottom: 1vh;
+  margin-bottom: 3vh;
 }
 
 body .mainContainer .header .headerText {
@@ -183,7 +183,6 @@ body .mainContainer .upper .leftside .column1 .right .dailyQuote {
   background-color: #2F2F2F;
   border-radius: 10px;
   padding: 10px;
-  height: 26vh;
 }
 
 body .mainContainer .upper .leftside .column1 .right .dailyQuote .quote {

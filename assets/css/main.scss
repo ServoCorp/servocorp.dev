@@ -17,7 +17,7 @@ body {
     .mainContainer {
         padding: 40px;
         .header {
-            margin-bottom: 1vh;
+            margin-bottom: 3vh;
             .headerText {
                 font-size: 0.5em;
                 color: $color_accent_white;
@@ -128,7 +128,6 @@ body {
                         background-color: $color_DarkBG;
                         border-radius: 10px;
                         padding: 10px;
-                        height: 26vh;
                         .quote {
                             color: $color_accent_white;
                             font-size: 1vw;
