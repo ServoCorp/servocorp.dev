@@ -29,12 +29,31 @@ body {
         }
         .upper {
             display: flex;
+            margin-right: 16%;
             .leftside {
                 .stats {
                     display: flex;
                     max-width: 50%;
                     .panel {
                         background-color: $color_primary;
+                        border-radius: 10px;
+                        margin-top: 2vh;
+                        text-align: center;
+                        padding: 1vh;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        li {
+                            list-style: none;
+                            color: $color_accent_white;
+                        }
+                        span {
+                            color: #ffb347;
+                        }
+                        h2 {
+                            color: $color_accent_green;
+                            font-size: 1.5vh;
+                        }
                     }
                 }
                 .column1 {
@@ -46,6 +65,7 @@ body {
                         display: flex;
                         flex-direction: column;
                         margin: 2vh 1vw 0vh 1vw;
+                        padding-bottom: 1vh;
                         .profile {
                             display: flex;
                             flex-direction: column;
@@ -79,6 +99,7 @@ body {
                             border-radius: 10px;
                             padding: 7px;
                             width: 100%;
+                            margin-top: 1vh;
                             &:hover {
                                 background-color: $color_accent_green;
                                 color: $color_DarkBG;
@@ -119,49 +140,86 @@ body {
                 }
             }
             }
-            .column2 {
-                background-color: $color_primary;
-                border-radius: 10px;
-                border: $color_primary 3px solid;
-                .title {
-                    font-size: 1em;
+            .rightside {
+                .contact {
+                    background-color: $color_primary;
+                    border-radius: 10px;
+                    margin-top: 2vh;
                     text-align: center;
-                    color: $color_accent_white;
-                    background: $color_primary;
-                }
-                .projectList {
-                    background-color: $color_DarkBG;
-                    padding: 1em 1em 0em 1em;
-                    li {
-                        list-style: none;
-                        text-align: center;
-                        padding-bottom: 2vh;
-                        a {
+                    padding: 1vh;
+                    .email {
+                        display: flex;
+                        flex-direction: row;
+                        width: 9vw;
+                        .fa-envelope {
+                            font-size: 2vh;
                             color: $color_accent_white;
-                            text-decoration: none;
-                            font-size: 0.8em;
-                            &:hover {
-                                color: $color_accent_green;
+                        }
+                    }
+                    h1 {
+                        color: $color_accent_white;
+                        font-size: 2.5vh;
+                        padding-bottom: 1vh;
+                    }
+                    p {
+                        color: $color_accent_green;
+                        font-size: 1.5vh;
+                    }
+                }
+                .column2 {
+                    background-color: $color_primary;
+                    border-radius: 10px;
+                    border: $color_primary 3px solid;
+                    .title {
+                        font-size: 1em;
+                        text-align: center;
+                        color: $color_accent_white;
+                        background: $color_primary;
+                    }
+                    .projectList {
+                        background-color: $color_DarkBG;
+                        padding: 1em 1em 0em 1em;
+                        li {
+                            list-style: none;
+                            text-align: center;
+                            padding-bottom: 2vh;
+                            a {
+                                color: $color_accent_white;
+                                text-decoration: none;
+                                font-size: 0.8em;
+                                &:hover {
+                                    color: $color_accent_green;
+                                }
                             }
                         }
                     }
-                }
-                .eth {
-                    display: flex;
-                    flex-direction: row;
-                    padding: 0.5vw;
-                    i {
-                        font-size: 1em;
-                        color: #716b94;                        ;
-                        margin-left: 0.2vw;
-                    }
-                    p {
-                        font-size: 0.8em;
-                        color: $color_accent_green;
-                        margin-left: 1vw;
+                    .eth {
+                        display: flex;
+                        flex-direction: row;
+                        padding: 0.5vw;
+                        i {
+                            font-size: 1em;
+                            color: #716b94;                        ;
+                            margin-left: 0.2vw;
+                        }
+                        p {
+                            font-size: 0.8em;
+                            color: $color_accent_green;
+                            margin-left: 1vw;
+                        }
                     }
                 }
             }
         }
     }
+}
+
+
+
+
+
+// media queries
+@media screen and (max-width: 1638px) {
+
+    
 }
