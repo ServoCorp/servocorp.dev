@@ -43,16 +43,23 @@ body {
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
+                        width: 7vw;
+                        height: 5vh;
                         li {
                             list-style: none;
                             color: $color_accent_white;
+                            font-size: 0.9vw;
+                        }
+                        .small {
+                            font-size: 0.5vw;
                         }
                         span {
                             color: #ffb347;
+                            font-size: 0.8vw;
                         }
                         h2 {
                             color: $color_accent_green;
-                            font-size: 1.5vh;
+                            font-size: 0.8vw;
                         }
                     }
                 }
@@ -81,7 +88,7 @@ body {
                             }
                         }
                         .timeDate {
-                            font-size: 2vh;
+                            font-size: 1vw;
                             color: $color_accent_green;
                             text-align: center;
                         }
@@ -151,7 +158,6 @@ body {
                     .email {
                         display: flex;
                         flex-direction: row;
-                        width: 9vw;
                         .fa-envelope {
                             font-size: 2vh;
                             color: $color_accent_white;
@@ -204,7 +210,7 @@ body {
                             margin-left: 0.2vw;
                         }
                         p {
-                            font-size: 0.8em;
+                            font-size: 0.8vw;
                             color: $color_accent_green;
                             margin-left: 1vw;
                         }

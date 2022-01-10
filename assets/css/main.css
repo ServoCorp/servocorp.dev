@@ -56,20 +56,28 @@ body .mainContainer .upper .leftside .stats .panel {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 7vw;
+  height: 5vh;
 }
 
 body .mainContainer .upper .leftside .stats .panel li {
   list-style: none;
   color: #fff;
+  font-size: 0.9vw;
+}
+
+body .mainContainer .upper .leftside .stats .panel .small {
+  font-size: 0.5vw;
 }
 
 body .mainContainer .upper .leftside .stats .panel span {
   color: #ffb347;
+  font-size: 0.8vw;
 }
 
 body .mainContainer .upper .leftside .stats .panel h2 {
   color: #ACDEA0;
-  font-size: 1.5vh;
+  font-size: 0.8vw;
 }
 
 body .mainContainer .upper .leftside .column1 {
@@ -117,7 +125,7 @@ body .mainContainer .upper .leftside .column1 .left .profile .profilePic .pictur
 }
 
 body .mainContainer .upper .leftside .column1 .left .profile .timeDate {
-  font-size: 2vh;
+  font-size: 1vw;
   color: #ACDEA0;
   text-align: center;
 }
@@ -212,7 +220,6 @@ body .mainContainer .upper .rightside .contact .email {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 9vw;
 }
 
 body .mainContainer .upper .rightside .contact .email .fa-envelope {
@@ -283,7 +290,7 @@ body .mainContainer .upper .rightside .column2 .eth i {
 }
 
 body .mainContainer .upper .rightside .column2 .eth p {
-  font-size: 0.8em;
+  font-size: 0.8vw;
   color: #ACDEA0;
   margin-left: 1vw;
 }
