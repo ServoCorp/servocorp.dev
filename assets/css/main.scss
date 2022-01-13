@@ -125,6 +125,9 @@ body {
                     .header {
                         color: $color_accent_white;
                         text-align: center;
+                        hr {
+                            border: 1px solid $color_accent_green;
+                        }
                         h1 {
                             font-size: 2vw;
                         }
@@ -162,12 +165,13 @@ body {
                         .fa-envelope {
                             font-size: 2vh;
                             color: $color_accent_white;
+                            padding-right: 0.2vw;
                         }
                     }
                     h1 {
                         color: $color_accent_white;
                         font-size: 2.5vh;
-                        padding-bottom: 1vw;
+                        padding-bottom: 1vh;
                     }
                     p {
                         color: $color_accent_green;
@@ -245,11 +249,66 @@ body {
 // media queries
 @media screen and (max-width: 667px) {
     .mainContainer{
+        .header {
+            height: 3vh;
+        }
         .upper {
             display: flex;
             flex-direction: column;
             margin: 0 !important;
+            .leftside {
+                margin: 0 auto !important;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .column1 {
+                    max-width: 100% !important;
+                    .right {
+                        padding-right: 7px !important;
+                        .header {
+                            padding-bottom: 2vh !important;
+                            h1 {
+                                font-size: 2.5vw !important;
+                            }
+                            hr {
+                                margin: 0 auto !important;
+                                width: 25vw !important;
+                            }
+                            h2 {
+                                font-size: 1.5vw !important;
+                            }
+                        }
+                        .dailyQuote {
+                            .author {
+                                font-size: 1.9vw !important;
+                            }
+                            .quote {
+                                font-size: 2.5vw !important;
+                            }
+                        }
+                    }
+                    .left {
+                        margin: 2vh 1vw 0vh 1vw !important;
+                        .profile {
+                            .timeDate {
+                                font-size: 1.7vw !important;
+                            }
+                        }
+                        .buttons {
+                            width: 100% !important;
+                            .button {
+                                width: 100% !important;
+                                margin-top: 1vh !important;
+                                font-size: 1.8vw !important;
+                            }
+                        }
+                    }
+                }
+            }
         }
+    }
+    * {
+        margin: 0 !important;
     }
 
     

@@ -180,6 +180,10 @@ body .mainContainer .upper .leftside .column1 .right .header {
   text-align: center;
 }
 
+body .mainContainer .upper .leftside .column1 .right .header hr {
+  border: 1px solid #ACDEA0;
+}
+
 body .mainContainer .upper .leftside .column1 .right .header h1 {
   font-size: 2vw;
 }
@@ -226,12 +230,13 @@ body .mainContainer .upper .rightside .contact .email {
 body .mainContainer .upper .rightside .contact .email .fa-envelope {
   font-size: 2vh;
   color: #fff;
+  padding-right: 0.2vw;
 }
 
 body .mainContainer .upper .rightside .contact h1 {
   color: #fff;
   font-size: 2.5vh;
-  padding-bottom: 1vw;
+  padding-bottom: 1vh;
 }
 
 body .mainContainer .upper .rightside .contact p {
@@ -314,6 +319,9 @@ body .mainContainer .footer .footerText p {
 }
 
 @media screen and (max-width: 667px) {
+  .mainContainer .header {
+    height: 3vh;
+  }
   .mainContainer .upper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -322,6 +330,61 @@ body .mainContainer .footer .footerText p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin: 0 !important;
+  }
+  .mainContainer .upper .leftside {
+    margin: 0 auto !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mainContainer .upper .leftside .column1 {
+    max-width: 100% !important;
+  }
+  .mainContainer .upper .leftside .column1 .right {
+    padding-right: 7px !important;
+  }
+  .mainContainer .upper .leftside .column1 .right .header {
+    padding-bottom: 2vh !important;
+  }
+  .mainContainer .upper .leftside .column1 .right .header h1 {
+    font-size: 2.5vw !important;
+  }
+  .mainContainer .upper .leftside .column1 .right .header hr {
+    margin: 0 auto !important;
+    width: 25vw !important;
+  }
+  .mainContainer .upper .leftside .column1 .right .header h2 {
+    font-size: 1.5vw !important;
+  }
+  .mainContainer .upper .leftside .column1 .right .dailyQuote .author {
+    font-size: 1.9vw !important;
+  }
+  .mainContainer .upper .leftside .column1 .right .dailyQuote .quote {
+    font-size: 2.5vw !important;
+  }
+  .mainContainer .upper .leftside .column1 .left {
+    margin: 2vh 1vw 0vh 1vw !important;
+  }
+  .mainContainer .upper .leftside .column1 .left .profile .timeDate {
+    font-size: 1.7vw !important;
+  }
+  .mainContainer .upper .leftside .column1 .left .buttons {
+    width: 100% !important;
+  }
+  .mainContainer .upper .leftside .column1 .left .buttons .button {
+    width: 100% !important;
+    margin-top: 1vh !important;
+    font-size: 1.8vw !important;
+  }
+  * {
     margin: 0 !important;
   }
 }
