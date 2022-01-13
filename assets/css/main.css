@@ -153,6 +153,7 @@ body .mainContainer .upper .leftside .column1 .left .buttons .button {
   padding: 7px;
   width: 100%;
   margin-top: 1vh;
+  font-size: 0.8vw;
 }
 
 body .mainContainer .upper .leftside .column1 .left .buttons .button:hover {
@@ -209,7 +210,7 @@ body .mainContainer .upper .rightside .contact {
   border-radius: 10px;
   margin-top: 2vh;
   text-align: center;
-  padding: 1vh;
+  padding: 1vw;
 }
 
 body .mainContainer .upper .rightside .contact .email {
@@ -230,7 +231,7 @@ body .mainContainer .upper .rightside .contact .email .fa-envelope {
 body .mainContainer .upper .rightside .contact h1 {
   color: #fff;
   font-size: 2.5vh;
-  padding-bottom: 1vh;
+  padding-bottom: 1vw;
 }
 
 body .mainContainer .upper .rightside .contact p {
@@ -245,7 +246,7 @@ body .mainContainer .upper .rightside .column2 {
 }
 
 body .mainContainer .upper .rightside .column2 .title {
-  font-size: 1em;
+  font-size: 1vw;
   text-align: center;
   color: #fff;
   background: #3A3A3A;
@@ -253,7 +254,7 @@ body .mainContainer .upper .rightside .column2 .title {
 
 body .mainContainer .upper .rightside .column2 .projectList {
   background-color: #2F2F2F;
-  padding: 1em 1em 0em 1em;
+  padding: 1vw 1vw 0vw 1vw;
 }
 
 body .mainContainer .upper .rightside .column2 .projectList li {
@@ -265,11 +266,15 @@ body .mainContainer .upper .rightside .column2 .projectList li {
 body .mainContainer .upper .rightside .column2 .projectList li a {
   color: #fff;
   text-decoration: none;
-  font-size: 0.8em;
+  font-size: 1vw;
 }
 
 body .mainContainer .upper .rightside .column2 .projectList li a:hover {
   color: #ACDEA0;
+}
+
+body .mainContainer .upper .rightside .column2 .projectList li h2 {
+  font-size: 1vw;
 }
 
 body .mainContainer .upper .rightside .column2 .eth {
@@ -293,5 +298,31 @@ body .mainContainer .upper .rightside .column2 .eth p {
   font-size: 0.8vw;
   color: #ACDEA0;
   margin-left: 1vw;
+}
+
+body .mainContainer .footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+body .mainContainer .footer .footerText p {
+  text-align: center;
+  color: #ACDEA0;
+  font-size: 1vw;
+}
+
+@media screen and (max-width: 667px) {
+  .mainContainer .upper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 !important;
+  }
 }
 /*# sourceMappingURL=main.css.map */

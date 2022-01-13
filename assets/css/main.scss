@@ -107,6 +107,7 @@ body {
                             padding: 7px;
                             width: 100%;
                             margin-top: 1vh;
+                            font-size: 0.8vw;
                             &:hover {
                                 background-color: $color_accent_green;
                                 color: $color_DarkBG;
@@ -154,7 +155,7 @@ body {
                     border-radius: 10px;
                     margin-top: 2vh;
                     text-align: center;
-                    padding: 1vh;
+                    padding: 1vw;
                     .email {
                         display: flex;
                         flex-direction: row;
@@ -166,7 +167,7 @@ body {
                     h1 {
                         color: $color_accent_white;
                         font-size: 2.5vh;
-                        padding-bottom: 1vh;
+                        padding-bottom: 1vw;
                     }
                     p {
                         color: $color_accent_green;
@@ -178,14 +179,14 @@ body {
                     border-radius: 10px;
                     border: $color_primary 3px solid;
                     .title {
-                        font-size: 1em;
+                        font-size: 1vw;
                         text-align: center;
                         color: $color_accent_white;
                         background: $color_primary;
                     }
                     .projectList {
                         background-color: $color_DarkBG;
-                        padding: 1em 1em 0em 1em;
+                        padding: 1vw 1vw 0vw 1vw;
                         li {
                             list-style: none;
                             text-align: center;
@@ -193,10 +194,13 @@ body {
                             a {
                                 color: $color_accent_white;
                                 text-decoration: none;
-                                font-size: 0.8em;
+                                font-size: 1vw;
                                 &:hover {
                                     color: $color_accent_green;
                                 }
+                            }
+                            h2 {
+                                font-size: 1vw;
                             }
                         }
                     }
@@ -218,6 +222,19 @@ body {
                 }
             }
         }
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            .footerText {
+                p {
+                    text-align: center;
+                    color: $color_accent_green;
+                    font-size: 1vw;
+                }
+            }
+        }
     }
 }
 
@@ -226,7 +243,14 @@ body {
 
 
 // media queries
-@media screen and (max-width: 1638px) {
+@media screen and (max-width: 667px) {
+    .mainContainer{
+        .upper {
+            display: flex;
+            flex-direction: column;
+            margin: 0 !important;
+        }
+    }
 
     
 }
