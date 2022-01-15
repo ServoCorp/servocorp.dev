@@ -145,6 +145,10 @@ body .mainContainer .upper .leftside .column1 .left .buttons {
   width: 50%;
 }
 
+body .mainContainer .upper .leftside .column1 .left .buttons a {
+  width: 100%;
+}
+
 body .mainContainer .upper .leftside .column1 .left .buttons .button {
   border: none;
   background-color: #2F2F2F;
@@ -275,6 +279,10 @@ body .mainContainer .upper .rightside .column2 .projectList li a {
 }
 
 body .mainContainer .upper .rightside .column2 .projectList li a:hover {
+  color: #ACDEA0;
+}
+
+body .mainContainer .upper .rightside .column2 .projectList li a .impt {
   color: #ACDEA0;
 }
 
