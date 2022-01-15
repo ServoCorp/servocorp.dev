@@ -318,6 +318,7 @@ body .mainContainer .footer {
   bottom: 0;
   left: 0;
   width: 100%;
+  background: #3A3A3A;
 }
 
 body .mainContainer .footer .footerText p {
