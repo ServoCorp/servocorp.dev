@@ -22,7 +22,7 @@ const quotes = [
     },
     {
         quote: "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
-        source: "Benjamin Franklin"
+        source: "-Benjamin Franklin"
     },
     {
         quote: "Whoever is happy will make others happy too.",

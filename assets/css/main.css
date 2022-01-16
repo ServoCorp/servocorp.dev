@@ -328,6 +328,9 @@ body .mainContainer .footer .footerText p {
 }
 
 @media screen and (max-width: 667px) {
+  .mainContainer .footer .footerText p {
+    font-size: 2vw !important;
+  }
   .mainContainer .header {
     height: 3vh;
   }
@@ -341,6 +344,38 @@ body .mainContainer .footer .footerText p {
             flex-direction: column;
     margin: 0 !important;
   }
+  .mainContainer .upper .rightside .contact .email {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .mainContainer .upper .rightside .contact .email .fa-envelope {
+    padding-right: 1.2vw !important;
+  }
+  .mainContainer .upper .rightside .column2 {
+    margin-bottom: 2vh !important;
+  }
+  .mainContainer .upper .rightside .column2 .title {
+    font-size: 2vw !important;
+  }
+  .mainContainer .upper .rightside .column2 .projectList li a {
+    font-size: 3vw !important;
+  }
+  .mainContainer .upper .rightside .column2 .projectList li h2 {
+    font-size: 3vw !important;
+  }
+  .mainContainer .upper .rightside .column2 .eth {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .mainContainer .upper .rightside .column2 .eth i {
+    font-size: 1.3em !important;
+    margin-right: 0.5vw !important;
+  }
+  .mainContainer .upper .rightside .column2 .eth p {
+    font-size: 2.6vw !important;
+  }
   .mainContainer .upper .leftside {
     margin: 0 auto !important;
     display: -webkit-box;
@@ -353,6 +388,30 @@ body .mainContainer .footer .footerText p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding-bottom: 4vh;
+  }
+  .mainContainer .upper .leftside .stats {
+    max-width: 100% !important;
+    padding-top: 4vh !important;
+    width: 100% !important;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .mainContainer .upper .leftside .stats .panel {
+    width: 14vw !important;
+    height: 7vw !important;
+  }
+  .mainContainer .upper .leftside .stats .panel .small {
+    font-size: 1.5vw !important;
+  }
+  .mainContainer .upper .leftside .stats .panel li {
+    font-size: 2vw !important;
+  }
+  .mainContainer .upper .leftside .stats .panel h2 {
+    font-size: 2vw !important;
+  }
+  .mainContainer .upper .leftside .stats .panel span {
+    font-size: 2vw !important;
   }
   .mainContainer .upper .leftside .column1 {
     max-width: 100% !important;
@@ -364,14 +423,14 @@ body .mainContainer .footer .footerText p {
     padding-bottom: 2vh !important;
   }
   .mainContainer .upper .leftside .column1 .right .header h1 {
-    font-size: 2.5vw !important;
+    font-size: 3.3vw !important;
   }
   .mainContainer .upper .leftside .column1 .right .header hr {
     margin: 0 auto !important;
     width: 25vw !important;
   }
   .mainContainer .upper .leftside .column1 .right .header h2 {
-    font-size: 1.5vw !important;
+    font-size: 2vw !important;
   }
   .mainContainer .upper .leftside .column1 .right .dailyQuote .author {
     font-size: 1.9vw !important;
@@ -384,6 +443,13 @@ body .mainContainer .footer .footerText p {
   }
   .mainContainer .upper .leftside .column1 .left .profile .timeDate {
     font-size: 1.7vw !important;
+  }
+  .mainContainer .upper .leftside .column1 .left .profile .profilePic {
+    width: 18vw !important;
+    height: 16vw !important;
+  }
+  .mainContainer .upper .leftside .column1 .left .profile .profilePic .picture {
+    border-radius: 10px 10px 0px 0px !important;
   }
   .mainContainer .upper .leftside .column1 .left .buttons {
     width: 100% !important;

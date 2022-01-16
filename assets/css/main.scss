@@ -256,6 +256,13 @@ body {
 // media queries
 @media screen and (max-width: 667px) {
     .mainContainer{
+        .footer {
+            .footerText {
+                p {
+                    font-size: 2vw !important;
+                }
+            }
+        }
         .header {
             height: 3vh;
         }
@@ -263,11 +270,70 @@ body {
             display: flex;
             flex-direction: column;
             margin: 0 !important;
+            .rightside {
+                .contact {
+                    .email {
+                        justify-content: center !important;
+                        .fa-envelope {
+                            padding-right: 1.2vw !important;
+                        }
+                    }
+                }
+                .column2 {
+                    margin-bottom: 2vh !important;
+                    .title {
+                        font-size: 2vw !important;
+                    }
+                    .projectList {
+                        li {
+                            a {
+                                font-size: 3vw !important;
+                            }
+                            h2 {
+                                font-size: 3vw !important;
+                            }
+                        }
+                    }
+                    .eth {
+                        justify-content: center !important;
+                        i {
+                            font-size: 1.3em !important;
+                            margin-right: 0.5vw !important;
+                        }
+                        p {
+                            font-size: 2.6vw !important;
+                        }
+                    }
+                }
+            }
             .leftside {
                 margin: 0 auto !important;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                padding-bottom: 4vh;
+                .stats {
+                    max-width: 100% !important;
+                    padding-top: 4vh !important;
+                    width: 100% !important;
+                    justify-content: space-around;
+                    .panel {
+                        width: 14vw !important;
+                        height: 7vw !important;
+                        .small {
+                            font-size: 1.5vw !important;
+                        }
+                        li {
+                            font-size: 2vw !important;
+                        }
+                        h2 {
+                            font-size: 2vw !important;
+                        }
+                        span {
+                            font-size: 2vw !important;
+                        }
+                    }
+                }
                 .column1 {
                     max-width: 100% !important;
                     .right {
@@ -275,14 +341,14 @@ body {
                         .header {
                             padding-bottom: 2vh !important;
                             h1 {
-                                font-size: 2.5vw !important;
+                                font-size: 3.3vw !important;
                             }
                             hr {
                                 margin: 0 auto !important;
                                 width: 25vw !important;
                             }
                             h2 {
-                                font-size: 1.5vw !important;
+                                font-size: 2vw !important;
                             }
                         }
                         .dailyQuote {
@@ -299,6 +365,13 @@ body {
                         .profile {
                             .timeDate {
                                 font-size: 1.7vw !important;
+                            }
+                            .profilePic {
+                                width: 18vw !important;
+                                height: 16vw !important;
+                                .picture {
+                                    border-radius: 10px 10px 0px 0px !important;
+                                }
                             }
                         }
                         .buttons {
