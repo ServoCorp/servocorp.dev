@@ -353,7 +353,7 @@ body .mainContainer .footer .footerText p {
     padding-right: 1.2vw !important;
   }
   .mainContainer .upper .rightside .column2 {
-    margin-bottom: 2vh !important;
+    margin-bottom: 3vh !important;
   }
   .mainContainer .upper .rightside .column2 .title {
     font-size: 2vw !important;
@@ -388,11 +388,11 @@ body .mainContainer .footer .footerText p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding-bottom: 4vh;
+    padding-bottom: 2vh;
   }
   .mainContainer .upper .leftside .stats {
     max-width: 100% !important;
-    padding-top: 4vh !important;
+    padding-top: 2vh !important;
     width: 100% !important;
     -ms-flex-pack: distribute;
         justify-content: space-around;
