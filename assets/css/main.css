@@ -177,6 +177,7 @@ body .mainContainer .upper .leftside .column1 .right {
           flex-direction: column;
   margin: 2vh 1vw;
   width: 42vw;
+  padding-right: 2vw;
 }
 
 body .mainContainer .upper .leftside .column1 .right .header {
