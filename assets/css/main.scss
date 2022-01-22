@@ -248,6 +248,41 @@ body {
             }
         }
     }
+
+    .blogContainer {
+        border: 1px solid $color_accent_green;
+        border-radius: 10px;
+        max-width: 50%;
+        .blog {
+            .blogComponent {
+                .blogYear {
+                    .fa-calendar-check-o {
+                        font-size: 1.5vw;
+                        color: $color_accent_green;
+                        margin-right: 0.5vw;
+                    }
+                    p {
+                        font-size: 1.5vw;
+                        color: $color_accent_green;
+                    }
+                }
+                .blogPost {
+                    .blogDate {
+                        p {
+                            font-size: 1vw;
+                            color: $color_accent_green;
+                        }
+                    }
+                    .blogTitle {
+                        p {
+                            font-size: 1.5vw;
+                            color: $color_accent_white;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 

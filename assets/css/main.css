@@ -328,6 +328,33 @@ body .mainContainer .footer .footerText p {
   font-size: 1vw;
 }
 
+body .blogContainer {
+  border: 1px solid #ACDEA0;
+  border-radius: 10px;
+  max-width: 50%;
+}
+
+body .blogContainer .blog .blogComponent .blogYear .fa-calendar-check-o {
+  font-size: 1.5vw;
+  color: #ACDEA0;
+  margin-right: 0.5vw;
+}
+
+body .blogContainer .blog .blogComponent .blogYear p {
+  font-size: 1.5vw;
+  color: #ACDEA0;
+}
+
+body .blogContainer .blog .blogComponent .blogPost .blogDate p {
+  font-size: 1vw;
+  color: #ACDEA0;
+}
+
+body .blogContainer .blog .blogComponent .blogPost .blogTitle p {
+  font-size: 1.5vw;
+  color: #fff;
+}
+
 @media screen and (max-width: 667px) {
   .mainContainer .footer .footerText p {
     font-size: 2vw !important;
