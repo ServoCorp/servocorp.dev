@@ -22,6 +22,10 @@ body {
                 font-size: 0.5em;
                 color: $color_accent_white;
                 float: right;
+                a {
+                    color: $color_accent_white;
+                    text-decoration: none;
+                }
                     span {
                         color: $color_accent_green;
                     }
@@ -265,7 +269,7 @@ body {
                     }
                     p {
                         font-size: 1.5vw;
-                        color: $color_accent_green;
+                        color: $color_accent_white;
                     }
                 }
                 .blogPost {
@@ -282,6 +286,16 @@ body {
                         p {
                             font-size: 1.5vw;
                             color: $color_accent_white;
+                            a {
+                                font-size: 1.5vw;
+                                color: $color_accent_white;
+                                text-decoration: none;
+                                transition: 0.9s;
+                                &:hover {
+                                    color: $color_accent_green;
+                                    transition: 0.9s;
+                                }
+                            }
                         }
                     }
                 }

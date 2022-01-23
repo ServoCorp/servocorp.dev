@@ -22,6 +22,11 @@ body .mainContainer .header .headerText {
   float: right;
 }
 
+body .mainContainer .header .headerText a {
+  color: #fff;
+  text-decoration: none;
+}
+
 body .mainContainer .header .headerText span {
   color: #ACDEA0;
 }
@@ -349,7 +354,7 @@ body .blogContainer .blog .blogComponent .blogYear .fa-calendar-check-o {
 
 body .blogContainer .blog .blogComponent .blogYear p {
   font-size: 1.5vw;
-  color: #ACDEA0;
+  color: #fff;
 }
 
 body .blogContainer .blog .blogComponent .blogPost {
@@ -368,6 +373,20 @@ body .blogContainer .blog .blogComponent .blogPost .blogDate p {
 body .blogContainer .blog .blogComponent .blogPost .blogTitle p {
   font-size: 1.5vw;
   color: #fff;
+}
+
+body .blogContainer .blog .blogComponent .blogPost .blogTitle p a {
+  font-size: 1.5vw;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+body .blogContainer .blog .blogComponent .blogPost .blogTitle p a:hover {
+  color: #ACDEA0;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
 }
 
 @media screen and (max-width: 667px) {
