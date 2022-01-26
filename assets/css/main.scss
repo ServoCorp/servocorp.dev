@@ -263,6 +263,29 @@ body {
         border-radius: 10px;
         max-width: 50%;
         .blog {
+            .blogHeader {
+                display: flex;
+                .bDate {
+                    font-size: 0.6vw;
+                    color: $color_accent_green;
+                    display: flex;
+                    align-items: center;
+                    margin-left: 1vw;
+                    margin-right: 0;
+                }
+                .title {
+                font-size: 1.5vw;
+                color: $color_accent_white;
+                text-align: center;
+                padding: 1vh;
+                }
+        }
+        .blogText {
+            font-size: 0.9vw;
+            color: $color_accent_white;
+            padding: 1vh 5vw;
+            text-align: center;
+        }
             .blogComponent {
                 .blogYear {
                     display: inline-flex;

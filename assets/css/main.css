@@ -346,6 +346,39 @@ body .blogContainer {
   max-width: 50%;
 }
 
+body .blogContainer .blog .blogHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .blogContainer .blog .blogHeader .bDate {
+  font-size: 0.6vw;
+  color: #ACDEA0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 1vw;
+  margin-right: 0;
+}
+
+body .blogContainer .blog .blogHeader .title {
+  font-size: 1.5vw;
+  color: #fff;
+  text-align: center;
+  padding: 1vh;
+}
+
+body .blogContainer .blog .blogText {
+  font-size: 0.9vw;
+  color: #fff;
+  padding: 1vh 5vw;
+  text-align: center;
+}
+
 body .blogContainer .blog .blogComponent .blogYear {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
