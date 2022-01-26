@@ -29,6 +29,10 @@ body {
                 }
                     span {
                         color: $color_accent_green;
+                        a {
+                            color: $color_accent_green;
+                            text-decoration: none;
+                        }
                     }
             }
         }

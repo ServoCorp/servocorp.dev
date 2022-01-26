@@ -33,6 +33,11 @@ body .mainContainer .header .headerText span {
   color: #ACDEA0;
 }
 
+body .mainContainer .header .headerText span a {
+  color: #ACDEA0;
+  text-decoration: none;
+}
+
 body .mainContainer .upper {
   display: -webkit-box;
   display: -ms-flexbox;
