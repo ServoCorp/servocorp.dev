@@ -1,5 +1,6 @@
 //make an array of quotes
-const quotes = [
+//old quote system - replaced with API
+/* const quotes = [
     {
         quote: "The greatest glory in living lies not in never falling, but in rising every time we fall.",
         source: "-Nelson Mandela"
@@ -68,13 +69,23 @@ const quotes = [
         quote: "Try not to become a man of success. Rather become a man of value.",
         source: "-Albert Einstein"
     }
-];
+]; */
 
-
+// OLD quote system - replaced with API
+//function randomQuote() {
+//    var random = Math.floor(Math.random() * quotes.length);
+//    document.getElementById('quote').innerHTML = quotes[random].quote;
+//    document.getElementById('author').innerHTML = quotes[random].source;
+//}
 function randomQuote() {
-    var random = Math.floor(Math.random() * quotes.length);
-    document.getElementById('quote').innerHTML = quotes[random].quote;
-    document.getElementById('author').innerHTML = quotes[random].source;
+    fetch("https://uselessfacts.jsph.pl/api/v2/facts/random")
+    .then((response) => response.json())
+    .then((json) => {
+        const quote = JSON.stringify(json.text)
+        document.getElementById('quote').innerHTML = quote
+    });
+    
+  
 }
 
 function printTime() {
@@ -106,7 +117,7 @@ function consoleLog() {
 }
 
 function scripts() {
-    console.log("coming soon")
+    console.log("coming soon :)")
 }
 
 
