@@ -163,7 +163,10 @@ body {
                                 float: right;
                                 a {
                                     text-decoration: none;
-                                    color: $color_accent_green;
+                                    color: $color_accent_white;
+                                    &:hover {
+                                        color: $color_accent_green;
+                                    }
                                 }
                             }
                         }
