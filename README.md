@@ -13,5 +13,5 @@ This is my personal portfolio for my web development services
 
 ## Live Site
 
-You can view the live site [here](https://servocorp.dev)
+You can view the live site [here](https://servocorp.github.io/servocorp.dev/)
 
